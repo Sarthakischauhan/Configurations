@@ -1,7 +1,4 @@
-#! /c/Program Files/Git/bin/bash 
-
-
-
+#!/usr/bin/bash
 #IF ELSE
 
 #NAME="Jia"
@@ -58,4 +55,36 @@
 #fi
 
 
+
+#CASE STATEMENT 
+
+#echo -n "Enter the name of the country :"
+#read COUNTRY
+#echo ""
+
+#case $COUNTRY in 
+
+#	India)
+#		echo "Hindi"
+#		;;
+
+#	Punjab)
+#		echo "Punjabi"
+#		;;
+#	
+#	*)
+#		echo "Unknown"
+#		;;
+#esac		
+
+
+
+
+		
+
+
+
+
+
+	
 
