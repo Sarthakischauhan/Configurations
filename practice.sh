@@ -28,8 +28,6 @@
 #   echo "$NUM2 is smaller than $NUM1 " 
 #fi
 
-
-
 # WORKING WITH FILE
 
 #FILE="text.txt"
@@ -143,12 +141,39 @@ BOOKS=('In Search of Lost Time' 'Don Quixote' 'Ulysses' 'The Great Gatsby')
 
 #TAKING FILES
 
-FILES=*.py
-
 #for FILE in $FILES
 #do
 #	rm $FILE
 #done	
+
+
+FILES=$(ls *.txt)
+
+#for i in $FILES 
+#do
+#	if [ "$i" == "s.txt" ]
+#	then
+#		NEW="sarthak"
+#
+#	elif [ "$i" == "j.txt" ]
+#	then
+#		NEW="joker"
+#	fi
+#	mv $i $NEW.txt
+#done
+
+
+#for file in $FILES
+#do 
+#	echo "${file%.txt}"
+#done
+
+
+
+
+
+
+
 
 
 

@@ -1,2 +1,2 @@
 # bash-scrips
-This file contains bash scripts i made 
+This file contains bash scripts i made from scratch 
