@@ -147,7 +147,7 @@ BOOKS=('In Search of Lost Time' 'Don Quixote' 'Ulysses' 'The Great Gatsby')
 #done	
 
 
-FILES=$(ls *.txt)
+#FILES=$(ls *.txt)
 
 #for i in $FILES 
 #do
@@ -169,12 +169,11 @@ FILES=$(ls *.txt)
 #done
 
 
+#NAMES=$(ls)
 
-
-
-
-
-
-
+#for name in $NAMES
+#do
+#	echo $name
+#done
 
 
