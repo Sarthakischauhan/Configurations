@@ -177,3 +177,22 @@ BOOKS=('In Search of Lost Time' 'Don Quixote' 'Ulysses' 'The Great Gatsby')
 #done
 
 
+
+#WHILE LOOPS
+
+#LINE=10
+#while [ $LINE -ge 5 ]
+#do 
+#	echo $LINE
+#	((LINE--))
+#done
+
+
+#FUNCTIONS 
+
+
+function sayhello() {
+	echo "Hello world"
+}
+
+sayhello
