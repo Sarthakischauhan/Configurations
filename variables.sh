@@ -14,11 +14,9 @@
 
 #echo "${string:5}"
 
-
 # ARRAY VARIABLE
 
 #arr=(sarthaks is chauhan and he is intelligent)
 #echo "${arr[*]}"
 #echo "${#arr[0]}"
-
 

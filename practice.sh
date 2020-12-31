@@ -191,8 +191,22 @@ BOOKS=('In Search of Lost Time' 'Don Quixote' 'Ulysses' 'The Great Gatsby')
 #FUNCTIONS 
 
 
-function sayhello() {
-	echo "Hello world"
-}
+#function sayhello() {
+#	echo "Hello world"
+#}
 
-sayhello
+var1=12
+
+#Local Variables
+#function test1() {
+#	local var1
+#	echo  "${var1:-"The var1 is not set"}"
+#}
+
+
+# You can't just return things in function 
+
+#func() {
+#	return 12
+#}
+
