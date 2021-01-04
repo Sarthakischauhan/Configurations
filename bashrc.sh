@@ -22,6 +22,10 @@ function chromeit() {
 		else
 			sub="$2"
 		fi
+	
+	elif [[ "$1" == "google" && -n "$2" ]]
+	then 
+		start chrome "www.google.com/search?q="$2 	
 
 	elif [ "$1" != "incognito" ]
 	then
@@ -30,7 +34,7 @@ function chromeit() {
 			sub="$1"
 		fi
 	fi
-
+	
 	if [ -f "$sub" ]
 	then
 		if [ -z "$incognito" ]
