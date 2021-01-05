@@ -20,3 +20,4 @@
 #echo "${arr[*]}"
 #echo "${#arr[0]}"
 
+echo "${PWD}"
