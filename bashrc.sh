@@ -4,7 +4,7 @@ alias ga="git add"
 alias gd="git diff"
 alias gc="git commit"
 alias gls="git ls-files | xargs wc -l"
-
+export PS1="\u@\h:~\e[1;33m\w\e[m\$ "
 
 function chromeit() {
 	#regex="(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]"
