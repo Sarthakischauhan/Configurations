@@ -1,3 +1,4 @@
+#! usr/bin/bash
 #HELL PARAMETER EXPANSION 
 
 #-----The meaning of parameter substitution is that it is printed instead of the parameter----
@@ -19,5 +20,3 @@
 #arr=(sarthaks is chauhan and he is intelligent)
 #echo "${arr[*]}"
 #echo "${#arr[0]}"
-
-echo "${PWD}"

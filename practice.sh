@@ -209,4 +209,13 @@ var1=12
 #func() {
 #	return 12
 #}
+#read n 
+#for (( i=1 ; i<=n ; i++))
+#do
+	#echo $i 
+#done
+#echo $i
 
+#dir=$(ls)
+
+#echo $dir
