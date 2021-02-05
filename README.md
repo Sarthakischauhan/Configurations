@@ -1,2 +1,2 @@
-# bash-scripts
-This file contains bash scripts i made from scratch 
+# configuration files
+I use these shells and here are my config files.
